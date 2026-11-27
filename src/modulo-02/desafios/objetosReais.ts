@@ -11,7 +11,7 @@ function formatarProduto(produto: Produto): string {
   const total = valor / 100;
   const totalFormatado = total.toFixed(2);
 
-  if (produto.descricao?.trim()) {
+  if (produto.descricao?.trim) {
     return (
       produto.id +
       " " +
